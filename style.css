@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-  padding: 0;
+  padding: 50;
   margin: 0;
   box-sizing: border-box;
 }
@@ -36,20 +36,19 @@ body {
 
 .happy-women-day {
   font-size: 2.2em;
-  position: fixed;
   font-family: 'Brush Script MT', cursive;
-  font-size: 30px;
   background: rgb(240, 169, 169);
   background-clip: text; 
   -webkit-text-fill-color: transparent; 
+
+  position: fixed;
+  bottom: auto;
 }
 
 .flowers {
   position: absolute;
-  transform: scale(0.8);
+  transform: scale(0.75);
   z-index: 1;
-
-
 }
 
 .flower {
@@ -65,7 +64,7 @@ body {
 }
 
 .flower--1 .flower__line {
-  height: 70vmin;
+  height: 75vmin;
   animation-delay: 0.3s;
 }
 
