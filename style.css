@@ -49,6 +49,7 @@ body {
   position: absolute;
   transform: scale(0.75);
   z-index: 1;
+  margin-bottom: 2em;
 }
 
 .flower {
@@ -1051,8 +1052,17 @@ box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
 
 @media (max-width: 768px) {
 
-  .text {
-      margin-top: 100px; 
+
+  .flowers {
+    position: absolute;
+    transform: scale(0.8);
+    z-index: 1;
+    margin-bottom: 3.5em;
+  }
+
+  .happy-women-day {
+    margin-bottom: 1.5em;
+
   }
 }
 
