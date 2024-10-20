@@ -1048,4 +1048,19 @@ box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
   animation-play-state: paused !important;
 }
 
+
+@media (max-width: 768px) {
+  .flower {
+      width: 80px;
+      height: 80px;
+      margin: 10px auto; /* Add margin to avoid overlap */
+      display: block; /* Center flower */
+  }
+
+  .text {
+      margin-top: 100px; /* Add space between flower and text */
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
