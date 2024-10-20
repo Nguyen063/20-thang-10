@@ -34,16 +34,15 @@ body {
 
 
 
-  .happy-women-day {
-    font-size: 2em;
-    position: fixed;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 30px;
-    background: rgb(240, 169, 169);
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-
+.happy-women-day {
+  font-size: 2em;
+  position: fixed;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 30px;
+  background: rgb(240, 169, 169);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
 
 .flowers {
   position: absolute;
