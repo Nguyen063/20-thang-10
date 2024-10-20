@@ -39,7 +39,7 @@ body {
     position: fixed;
     font-family: 'Brush Script MT', cursive;
     font-size: 30px;
-    background: linear-gradient(90deg, #d4bab0, #c49087, #b08271);
+    background: rgb(240, 169, 169);
     -webkit-background-clip: text;
     color: transparent;
   }
